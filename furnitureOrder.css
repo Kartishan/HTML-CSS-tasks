@@ -1,0 +1,236 @@
+body{
+    background: #F3EFEA;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    list-style: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+}
+.furnitureMainContainer{
+    margin: 0;
+    width: 1440px;
+    height: 639px;
+    background-image: url("./images/order/main.png");
+    text-align: center;
+}
+.furnitureMainContainer p{
+    color: #F6F6F6;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding-top: 218px;
+}
+.furnitureMainContainer h1{
+    color: #F6F6F6;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 0;
+}
+.furnitureMainContainer h2{
+    color: #F6F6F6;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 0;
+    margin-top: 25px;
+}
+.furnitureMainContainer button{
+    width: 328px;
+    height: 60px;
+    background: #F6F6F6;
+    color: #715B4B;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    margin-top: 90px;
+}
+.secondOrderContainer{
+  margin-top: 160px;
+  margin-left: 140px;
+}
+.secondOrderContainer h2{
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+.secondOrderContainerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 100px;
+    row-gap: 78px;
+}
+.secondOrderContainerGrid h3{
+    margin: 0;
+    white-space: nowrap;
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.secondOrderContainerGrid p{
+    margin: 0;
+    margin-top: 20px;
+    white-space: nowrap;
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.border_style{
+    border-bottom: 1px solid #715B4B;
+    width: 200px;
+}
+
+.thirdOrderContainer{
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+}
+
+.thirdOrderContainer h2{
+    display: flex;
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+.thirdOrderContainerImgTop{
+    width: 819px;
+    height: 694px;
+    margin-top: 100px;
+    margin-bottom: 21px;
+}
+
+.thirdOrderContainerImgDown{
+    width: 103px;
+    height: 102px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+.thirdOrderContainer button{
+    border: none;
+    background: none;
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.fourthContainer{
+    margin-top:160px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.fourthContainer h2{
+    display: flex;
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+.fourthContainerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 100px;
+}
+.fourthContainerGrid h3{
+    text-align: right;
+    margin: 0;
+    margin-right: 40px;
+    margin-top: 10px;
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
+.fourthContainerGrid p{
+    margin: 0;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+}
+.fourthContainerGrid div{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.fithContainer{
+    margin-top:160px;
+    text-align: center;
+}
+.fithContainer h2{
+    margin-left: 140px;
+    display: flex;
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+.fithContainerImg{
+    margin-top: 100px;
+    display: flex;
+    align-items: start;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.lastButton{
+    margin-top:100px;
+    width: 245px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #A1B29F;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border:none;
+    margin-bottom: 180px;
+}
